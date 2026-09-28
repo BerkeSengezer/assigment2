@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    min-width: max-content;
+    min-height: 100%;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+    white-space: nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.box-a,
+.box-b,
+.box-c,
+.box-d,
+.box-e {
+    display: inline-block;
+}
+
+.box-f {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin-right: 0;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
